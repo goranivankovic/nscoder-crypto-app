@@ -45,7 +45,7 @@
 --cryptoFirst:1.4rem;
 --cryptoBoxHeadline:1.9rem;
 --cryptoBoxText: 1.3rem;
---cryptoBtnWidth:10rem;
+--cryptoBtnWidth:9rem;
 --crtyptoBtnSize:1rem;
 --crypto3text:1.5rem;
 
@@ -162,7 +162,7 @@
       --cryptoFirst: 1.2rem;
       --cryptoBoxHeadline: 1.5rem;
       --cryptoBoxText: 1.2rem;
-      --cryptoBtnWidth: 9rem;
+      --cryptoBtnWidth: 8.5rem;
       --crtyptoBtnSize: 1rem;
       --crypto3text: 1.3rem;
 
@@ -211,7 +211,7 @@
       --cryptoFirst: 1.1rem;
       --cryptoBoxHeadline: 1.3rem;
       --cryptoBoxText: 1.1rem;
-      --cryptoBtnWidth: 9rem;
+      --cryptoBtnWidth: 8.5rem;
       --crtyptoBtnSize: .95rem;
       --crypto3text: 1.2rem;
 
@@ -260,7 +260,7 @@
       --cryptoFirst: 1.1rem;
       --cryptoBoxHeadline: 1.3rem;
       --cryptoBoxText: 1.1rem;
-      --cryptoBtnWidth: 9rem;
+      --cryptoBtnWidth: 8.5rem;
       --crtyptoBtnSize: .95rem;
       --crypto3text: 1.2rem;
 

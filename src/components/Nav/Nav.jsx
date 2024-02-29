@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 
 import navStyles from '../../styles/Nav/Nav.module.css'
 
-
+import { FaBars  } from "react-icons/fa"
 
 import { animate, delay, motion } from "framer-motion"
 
@@ -11,6 +11,8 @@ import { animate, delay, motion } from "framer-motion"
 
 
 function Nav() {
+
+  const[laz6,setLaz6]=useState(true)
 
 
   const[laz,setlaz]=useState(true)
@@ -103,6 +105,9 @@ setTimeout(() => {
     
   }
 
+ function toogle(){
+  setLaz6(!laz6)
+ } 
 
   return (
     <div>
@@ -175,13 +180,67 @@ setTimeout(() => {
      opacity:[0,.5,1]}}
     transition={{duration:1.5,delay:.5,ease:'circInOut'}}
       >{item5}</motion.div>  :''} </a>
-     
-
-
-
-    
       
       </div>
+
+
+    <FaBars  className={navStyles.bars}  onClick={toogle}/>
+
+
+
+
+
+{/* NavBar 768 */}
+
+{!laz6 ?
+
+   <motion.div className={navStyles.main768} 
+   animate={{
+     x:[100,0],
+     rotate:[0,10,0],
+     opacity:[0,1]}}
+    transition={{duration:1.5,delay:.5,ease:'circInOut'}}
+
+   
+   >
+     
+      <motion.a
+
+     animate={{
+      scale: [1, 1.5, 3, 1, 1],
+      rotate: [0, 0, 270, 270, 0],
+      borderRadius: ["20%", "20%", "50%", "50%", "20%"],
+    }}
+
+    transition={{ repeat: Infinity, duration: 4 }}
+
+
+      
+      href="#home"
+      onClick={toogle}
+      ></motion.a>
+
+
+<a   href="#buy" onClick={toogle}></a>
+
+
+<a  href="#get"onClick={toogle}></a>
+
+
+
+<a  href="#crypto"onClick={toogle}></a>
+
+
+
+
+ <a   href="#info"onClick={toogle}></a>
+     
+</motion.div>
+
+
+:""}
+
+
 
 
 

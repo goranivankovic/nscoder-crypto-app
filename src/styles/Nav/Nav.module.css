@@ -40,41 +40,76 @@ z-index: 50;
 
 
 
+  .main768{
+    display: none;
+  }
+
+
+  .bars{
+ display: none;
+
+  }
+
+
+
+
 
 @media (max-width:48rem) {
 .main {
-        position: fixed;
-        top: 2%;
-        left: 0%;
-       width: 100%;
-       min-height: 2rem;
+    display: none;
+
+
+    }
+
+
+        .main768 {
+            position: fixed;
+            top: 0%;
+            left: 0%;
+            width:2.2rem;
+            min-height: 100vh;
     
-        color: var(--white);
+            color: var(--white);
+    
+    
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+    
+            z-index: 60;
+    
+            background-color: var(--black);  
+    
+        }
 
 
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-
-        z-index: 50;
-
-      /* background-color: red;   */
-
-    }
 
 
 
-    .main a {
-        width: 1.1rem;
-        min-height: 1.1rem;
-        border-radius: 50%;
-        background-color: var(--white);
-        text-decoration: none;
-        margin: 1.2em;
-        color: var(--white);
+.main768 a {
+    width: 1.1rem;
+    min-height: 1.1rem;
+    border-radius: 50%;
+    background-color: var(--white);
+    text-decoration: none;
+    margin: 1.2em;
 
-    }
+
+}
+
+
+  .bars {
+    display: flex;
+      position: fixed;
+      top: 3%;
+      right: 4%;
+      color: var(--blue);
+     font-size: 2rem;
+
+     z-index: 100;
+  }
+
     
 }
 
