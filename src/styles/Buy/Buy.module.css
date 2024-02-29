@@ -1,0 +1,554 @@
+.container{
+
+    width: 100%;
+    cursor: pointer; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--black);
+    color: white;
+
+  }
+
+
+
+
+  .firstDiv{
+  
+    width: 65rem;
+  
+   display: flex;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+   padding-top: 1em;
+   font-size: var(--buyHeadline);
+   color: var(--white);
+   margin-bottom: .5em;
+
+   /* border: 1px solid red;  border: 1px solid red; */
+
+
+  }
+
+
+  .secondDiv{
+  width: 65rem;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-around;
+   font-size: var(--buyText);
+   color: white;
+    text-align: center;
+
+
+/* border: .2em solid yellow; */
+
+  }
+
+  .secondDiv div{
+    padding: .5em;
+  }
+
+  .emptyDiv{
+    max-width: 90%;
+    padding: 1em;
+  }
+
+  .threedDiv{
+    width: 75rem;
+  
+    
+/* border: .2em solid teal; */
+
+  }
+
+   .threedDivItems{
+    width: 100%;
+    border-bottom: .01em solid var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em;
+    font-size: var(--buyTable);
+
+  }
+
+    .threedDivItems:hover{
+     transition: var(--transiton);
+     transform: scale(.98);
+    }
+
+
+  .threedDivItems div{
+    width: 20%;
+
+  }
+
+     .threedDivItems button:hover{
+      transition: 600ms;
+      transform: scale(.98);
+      background-color: var(--blue);
+      color: white;
+      cursor: pointer;
+     }
+
+
+
+
+
+
+
+  .threedDivItems  button{
+    padding: .60em; 
+    width: 8rem;
+    background-color: white;
+    border-radius: var(--btnRadius);
+    font-size: 1rem;
+    border: none;
+  }
+
+
+
+
+
+
+    .button {
+  
+      width: var(--btnWidth);
+      padding: var(--btnPadding);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: var(--btnRadius);
+      color: var(--white);
+      font-weight: bold;
+      font-size: var(--btnSize);
+      margin-bottom: 1em;
+      margin-top: 1em;
+      border: .2em solid var(--white);
+      background-color: var(--black);
+  
+  
+    }
+  
+    .button:hover {
+      transition: 600ms;
+      transform: scale(1.03);
+      background-color: var(--white);
+      color: black;
+      border: none;
+      cursor: pointer;
+    }
+
+
+
+
+ @media (max-width:75rem) {
+    .threedDiv {
+        width: 65rem;
+    
+      }
+  
+ }   
+
+
+
+    @media (max-width:65rem) {
+.firstDiv {
+
+    width: 48rem;
+
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1em;
+    font-size: var(--buyHeadline);
+    color: var(--white);
+    margin-bottom: .5em;
+
+
+
+  }
+
+
+  .secondDiv {
+    width:48rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-size: var(--buyText);
+    color: white;
+
+
+
+
+  }
+
+  .secondDiv div {
+    padding: .5em;
+  }
+
+  .emptyDiv {
+    max-width: 90%;
+    padding: 1em;
+  }
+
+  .threedDiv {
+    width: 48rem;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+
+
+
+
+  }
+
+  .threedDivItems {
+    width: 100%;
+    border-bottom: .01em solid var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em;
+    font-size: var(--buyTable);
+
+  }
+
+  .threedDivItems div:nth-child(4){
+    display: none;
+
+  }
+
+
+  .threedDivItems div {
+    width: 25%;
+
+  }
+
+
+
+
+  .threedDivItems button {
+    padding: .60em;
+    width: 8rem;
+    background-color: white;
+    border-radius: var(--btnRadius);
+    font-size: 1rem;
+    border: none;
+  }
+      
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @media (max-width:48rem) {
+   .firstDiv {
+
+     width: 40rem;
+
+     display: flex;
+     text-align: center;
+     align-items: center;
+     justify-content: center;
+     padding-top: 1em;
+     font-size: var(--buyHeadline);
+     color: var(--white);
+     margin-bottom: .5em;
+
+
+
+   }
+
+
+   .secondDiv {
+     width: 40rem;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-around;
+     font-size: var(--buyText);
+     color: white;
+
+
+
+
+   }
+
+   .secondDiv div {
+     padding: .5em;
+   }
+
+   .emptyDiv {
+     max-width: 90%;
+     padding: 1em;
+   }
+
+   .threedDiv {
+     width: 40rem;
+     flex-direction: column;
+     display: flex;
+     justify-content: space-around;
+
+
+
+
+   }
+
+   .threedDivItems {
+     width: 100%;
+     border-bottom: .01em solid var(--white);
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 1em;
+     font-size: var(--buyTable);
+
+   }
+
+   .threedDivItems div:nth-child(4) {
+     display: none;
+
+   }
+
+
+   .threedDivItems div {
+     width: 25%;
+
+   }
+
+
+
+
+   .threedDivItems button {
+     padding: .60em;
+     width: 8rem;
+     background-color: white;
+     border-radius: var(--btnRadius);
+     font-size: 1rem;
+     border: none;
+   }
+
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+ @media (max-width:40rem) {
+   .firstDiv {
+
+     width: 95%;
+
+     display: flex;
+     text-align: center;
+     align-items: center;
+     justify-content: center;
+     padding-top: 1em;
+     font-size: var(--buyHeadline);
+     color: var(--white);
+     margin-bottom: .5em;
+
+
+
+   }
+
+
+   .secondDiv {
+     width:95%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-around;
+     font-size: var(--buyText);
+     color: white;
+
+
+
+
+   }
+
+   .secondDiv div {
+     padding: .5em;
+   }
+
+   .emptyDiv {
+     max-width: 90%;
+     padding: 1em;
+   }
+
+   .threedDiv {
+     width:95%;
+     flex-direction: column;
+     display: flex;
+     justify-content: space-around;
+
+
+
+
+   }
+
+   .threedDivItems {
+     width: 100%;
+     border-bottom: .01em solid var(--white);
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 1em;
+     font-size: var(--buyTable);
+
+   }
+
+   /* .threedDivItems div:nth-child(3) {
+     display: none;
+
+   } */
+
+
+   .threedDivItems div {
+     width: 25%;
+
+   }
+
+
+
+
+   .threedDivItems button {
+     padding: .65em;
+     width: 7rem;
+     background-color: white;
+     border-radius: var(--btnRadius);
+     font-size: .95rem;
+     border: none;
+   }
+
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @media (max-width:30rem) {
+   .firstDiv {
+
+     width: 95%;
+
+     display: flex;
+     text-align: center;
+     align-items: center;
+     justify-content: center;
+     padding-top: 1em;
+     font-size: var(--buyHeadline);
+     color: var(--white);
+     margin-bottom: .5em;
+
+
+
+   }
+
+
+   .secondDiv {
+     width: 95%;
+     display: flex;
+     text-align: center;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-around;
+     font-size: var(--buyText);
+     color: white;
+
+
+
+
+   }
+
+   .secondDiv div {
+     padding: .4em;
+   }
+
+   .emptyDiv {
+     max-width: 90%;
+     padding: 1em;
+   }
+
+   .threedDiv {
+     width: 95%;
+     flex-direction: column;
+     display: flex;
+     justify-content: space-around;
+
+
+
+
+   }
+
+   .threedDivItems {
+     width: 100%;
+     border-bottom: .01em solid var(--white);
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 1em;
+     font-size: var(--buyTable);
+
+   }
+
+   .threedDivItems div:nth-child(3) {
+     display: none;
+
+   }
+
+
+   .threedDivItems div {
+     width: 33%;
+
+   }
+
+
+
+
+   .threedDivItems button {
+     padding: .6em;
+     width: 7rem;
+     background-color: white;
+     border-radius: var(--btnRadius);
+     font-size: .95rem;
+     border: none;
+   }
+
+
+ }

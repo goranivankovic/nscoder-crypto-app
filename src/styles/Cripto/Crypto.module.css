@@ -1,0 +1,365 @@
+.main{
+ 
+    width: 100%;
+    cursor: pointer; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--black);
+    color: var(--white);
+
+
+
+  }
+
+
+  .firstDiv{
+      margin-top: 2em;
+    width: 90%;
+
+   display: flex;
+   text-align: center;
+align-items: center;
+  justify-content: center;
+  font-size: var(--cryptoHeadline);
+  color: var(--blue);
+padding: .5em;
+
+   /* border: 1px solid red; */
+    
+
+  }
+
+  .secondDiv{
+    
+    width: 90%;
+   display: flex;
+    text-align: center;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   font-size: var(--cryptoFirst);
+   /* border: 1px solid red; */
+
+
+  }
+
+  .secondDiv div{
+    text-align: center;
+    padding: .4em;
+  }
+
+
+
+  .emptyDiv{
+ 
+    width: 90%;
+    padding: 1em;
+  }
+   
+
+
+
+  .threedDiv{
+ 
+    width:65rem;
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    /* border: 1px solid teal; */
+
+
+  }
+
+  .threedDivitems{
+    
+ 
+     width: 50%;
+      display: flex;
+   
+      flex-direction: column;
+      justify-content: space-around;
+
+
+   /* border: 1px solid brown; */
+
+  } 
+
+
+
+  .threedDivitemsHeadline{
+    padding: 1em;
+      /* border: 1px solid red; */
+      font-size: var(--cryptoBoxHeadline);
+      color: var(--blue);
+
+
+  }
+
+  .threedDivitemsText{
+    padding: 1em;
+    font-size: var(--cryptoBoxText);
+  }
+ 
+
+  .imageDiv{
+    width:auto;
+    height: 28rem;
+  /* border: 1px solid blue; */
+
+
+  }
+
+  .imageDiv:hover{
+    transition: var(--transiton);
+    transform: translateX(-2rem)rotate(5deg);
+  }
+
+  .imageDiv img{
+    height: 100%;
+    width: 100%;
+  }
+
+.button {
+margin-left: 1.5em;
+  width: var(--cryptoBtnWidth);
+  padding: var(--btnPadding);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--btnRadius);
+  color: var(--white);
+  font-weight: bold;
+  font-size: var(--crtyptoBtnSize);
+  margin-bottom: 1em;
+  margin-top: 1em;
+  border: .2em solid var(--white);
+  background-color: var(--black);
+
+
+}
+
+.button:hover {
+  transition: 600ms;
+  transform: scale(1.03);
+  background-color: var(--white);
+  color: black;
+  border: none;
+  cursor: pointer;
+}
+
+
+.fourDiv{
+
+    width: 90%;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      font-size: var(--crypto3text);
+      color: var(--white);
+      padding: .8em;
+    
+      /* border: 1px solid red; */
+
+}
+
+
+
+
+.fourDiv div{
+  padding: .3em;
+  text-align: center;
+}
+
+.fourDiv div:hover{
+  transition: var(--transiton);
+  transform: translateX(2rem);
+  text-decoration: underline;
+}
+
+
+@media (max-width:65rem) {
+  .threedDiv {
+
+    width: 48rem;
+
+    display: flex;
+    align-items: center;
+
+    /* border: 1px solid red; */
+
+
+  }
+
+
+    .threedDivitems {
+  
+  
+      width: 60%;
+      display: flex;
+  
+      flex-direction: column;
+      justify-content: space-around;
+  
+  
+ 
+  
+    }
+
+
+         .imageDiv {
+           width: auto;
+           height: 25rem;
+ 
+    
+         }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:48rem) {
+  .threedDiv {
+
+    width: 40rem;
+
+    display: flex;
+    align-items: center;
+  justify-content: space-between;
+
+    /* border: 1px solid red; */
+
+
+  }
+
+ .threedDivitems {
+
+
+   width: 65%;
+   display: flex;
+
+   flex-direction: column;
+   justify-content: space-around;
+
+
+
+
+ }
+
+
+    .imageDiv {
+      width: auto;
+      height: 21rem;
+
+  
+    }
+
+}
+
+
+
+
+
+
+
+
+@media (max-width:40rem) {
+.firstDiv {
+    margin-top: 2em;
+    width: 95%;
+
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--cryptoHeadline);
+    color: var(--blue);
+    padding: .5em;
+
+
+
+  }
+
+  .secondDiv {
+
+    width: 95%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--cryptoFirst);
+
+
+
+  }
+
+
+  .threedDiv {
+
+    width: 95%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    /* border: 1px solid red; */
+
+
+  }
+
+ .threedDivitems {
+
+
+   width: 100%;
+   display: flex;
+
+   flex-direction: column;
+   justify-content: space-around;
+
+
+
+
+
+
+ }
+
+
+
+
+  .imageDiv {
+    margin-top: 1em;
+    width: auto;
+    height: 20rem;
+
+
+  }
+
+
+
+
+}
+
+
+
+
+
+
+
+

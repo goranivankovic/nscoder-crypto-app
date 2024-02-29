@@ -1,0 +1,274 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Tilt+Neon&display=swap');
+
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+    font-family: 'Tilt Neon', cursive;
+    scroll-behavior: smooth;
+ 
+ 
+  
+}
+
+
+
+:root {
+  --black: black;
+  --white: #ffffff;
+  --blue:#1199fa;
+  --red:firebrick;
+  --grey:rgb(99, 99, 99);
+ --transiton:650ms;
+
+ --navItems:2rem;
+
+  --btnWidth:14rem;
+  --btnPadding:.85em;
+  --btnRadius:1em;
+  --btnSize:1rem;
+
+  --moreHeadline: 4rem;
+  --moreText: 1.4rem;
+
+  --buyHeadline:3.3rem;
+  --buyText:1.4rem;
+  --buyTable:1.5rem;
+
+
+  --getHeadline:3.3rem;
+  --getText:1.9rem;
+
+--cryptoHeadline:3.3rem;
+--cryptoFirst:1.4rem;
+--cryptoBoxHeadline:1.9rem;
+--cryptoBoxText: 1.3rem;
+--cryptoBtnWidth:10rem;
+--crtyptoBtnSize:1rem;
+--crypto3text:1.5rem;
+
+
+--footerHeadline:1.35rem;
+--footerText:1.15rem;
+--footerIcons:2rem;
+--footer3Text:1.3rem;
+
+
+
+}
+
+
+
+
+
+
+
+
+::-webkit-scrollbar {
+  width: 14px;
+}
+
+::-webkit-scrollbar-thumb {
+
+  border-radius: .4em;
+  background-color: var(--blue);
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, .5);
+}
+
+::-webkit-scrollbar-track {
+  border-radius: .7em;
+  background-color: var(--black);
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, .4);
+}
+
+
+
+
+
+@media (max-width:65rem) {
+:root {
+   
+    --navItems: 1.7rem;
+
+    --btnWidth: 14rem;
+    --btnPadding: .85em;
+    --btnRadius: 1em;
+    --btnSize: 1rem;
+
+    --moreHeadline: 3.3rem;
+    --moreText: 1.3rem;
+
+    --buyHeadline: 2.8rem;
+    --buyText: 1.3rem;
+    --buyTable: 1.3rem;
+
+
+    --getHeadline: 2.8rem;
+    --getText: 1.6rem;
+
+    --cryptoHeadline: 2.8rem;
+    --cryptoFirst: 1.3rem;
+    --cryptoBoxHeadline: 1.7rem;
+    --cryptoBoxText: 1.3rem;
+    --cryptoBtnWidth: 9rem;
+    --crtyptoBtnSize: 1rem;
+    --crypto3text: 1.4rem;
+
+
+    --footerHeadline: 1.2rem;
+    --footerText: 1.1rem;
+    --footerIcons: 1.8rem;
+    --footer3Text: 1.2rem;
+
+
+
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:48rem) {
+  :root {
+
+    --navItems:1.5rem;
+
+    --btnWidth: 13rem;
+    --btnPadding: .85em;
+    --btnRadius: 1em;
+    --btnSize: 1rem;
+
+    --moreHeadline: 2.8rem;
+    --moreText: 1.2rem;
+
+    --buyHeadline: 2.6rem;
+    --buyText: 1.2rem;
+    --buyTable: 1.2rem;
+
+
+    --getHeadline: 2.6rem;
+    --getText: 1.4rem;
+
+    --cryptoHeadline: 2.6rem;
+      --cryptoFirst: 1.2rem;
+      --cryptoBoxHeadline: 1.5rem;
+      --cryptoBoxText: 1.2rem;
+      --cryptoBtnWidth: 9rem;
+      --crtyptoBtnSize: 1rem;
+      --crypto3text: 1.3rem;
+
+
+--footerHeadline: 1.2rem;
+  --footerText: 1.1rem;
+  --footerIcons: 1.8rem;
+  --footer3Text: 1.2rem;
+
+
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:40rem) {
+  :root {
+
+    --navItems: 1.3rem;
+
+    --btnWidth: 12rem;
+    --btnPadding: .85em;
+    --btnRadius: 1em;
+    --btnSize: .95rem;
+
+    --moreHeadline: 2.6rem;
+    --moreText: 1.1rem;
+
+    --buyHeadline: 2.4rem;
+    --buyText: 1.2rem;
+    --buyTable: 1.1rem;
+
+
+    --getHeadline: 2.4rem;
+    --getText: 1.3rem;
+
+    --cryptoHeadline: 2.4rem;
+      --cryptoFirst: 1.1rem;
+      --cryptoBoxHeadline: 1.3rem;
+      --cryptoBoxText: 1.1rem;
+      --cryptoBtnWidth: 9rem;
+      --crtyptoBtnSize: .95rem;
+      --crypto3text: 1.2rem;
+
+
+--footerHeadline: 1.1rem;
+  --footerText: 1.1rem;
+  --footer3Text: 1.2rem;
+
+
+
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:30rem) {
+  :root {
+
+    --navItems: 1.1rem;
+
+    --btnWidth: 11rem;
+    --btnPadding: .85em;
+    --btnRadius: 1em;
+    --btnSize: .9rem;
+
+    --moreHeadline: 2rem;
+    --moreText: 1.15rem;
+
+    --buyHeadline: 1.8rem;
+    --buyText: 1.2rem;
+    --buyTable: 1rem;
+
+
+    --getHeadline: 1.8rem;
+    --getText: 1.2rem;
+
+    --cryptoHeadline:1.8rem;
+      --cryptoFirst: 1.1rem;
+      --cryptoBoxHeadline: 1.3rem;
+      --cryptoBoxText: 1.1rem;
+      --cryptoBtnWidth: 9rem;
+      --crtyptoBtnSize: .95rem;
+      --crypto3text: 1.2rem;
+
+
+--footerHeadline: 1.1rem;
+  --footerText: 1.1rem;
+  --footer3Text: 1.2rem;
+
+
+  }
+}

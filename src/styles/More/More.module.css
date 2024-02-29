@@ -1,0 +1,402 @@
+
+
+
+ .main{
+  min-height: 100vh;
+    width: 100%;
+    cursor: pointer; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+background-color: var(--black);
+
+color: var(--white);
+
+  }
+
+
+  .firstDiv{
+    width:65rem;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+justify-content: center;
+margin-bottom: 2em;
+
+
+    /* border: 1px solid red; */
+
+  }
+
+  .firstDiv div{
+    text-align: center;
+    font-size: var(--moreHeadline)
+  }
+
+  .secondDiv{
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    /* align-items:flex-start; */
+
+ /* border: .2em solid red; */
+
+
+  }
+
+  .secondDiv div{
+
+    padding: .4em;
+    font-size: var(--moreText);
+
+        /* border: 2px solid red; */
+
+  }
+
+  .secondDiv div:hover{
+    transition: var(--transiton);
+    transform: translateX(2rem);
+    text-decoration: underline;
+  }
+
+
+  .secondDivImages {
+width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  }
+
+.secondDivImages img{
+  width: 10rem;
+  height: 3rem;
+
+}
+
+
+
+  .threedDiv{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+background-color: var(--black);
+    /* border: 1px solid red; */
+
+
+  }
+
+
+
+
+
+  .button{
+
+    width: var(--btnWidth);
+    padding: var(--btnPadding);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     border-radius: var(--btnRadius);
+    color: var(--white);
+    font-weight: bold;
+    font-size: var(--btnSize);
+    margin-bottom: 1em;
+    margin-top: 1em;
+    border: .2em solid var(--white);
+    background-color: var(--black);
+   
+
+  }
+
+  .button:hover{
+    transition: 600ms;
+    transform: scale(1.03);
+    background-color: var(--white);
+      color: black;
+      border: none;
+      cursor: pointer;
+  }
+
+
+  @media (max-width:65rem) {
+
+  .firstDiv {
+      width: 48rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 2em;
+  
+  
+
+  
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:48rem) {
+
+  .firstDiv {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2em;
+
+
+
+
+  }
+
+.secondDiv {
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  /* align-items:flex-start; */
+
+
+
+
+}
+
+.secondDiv div {
+
+  padding: .4em;
+  font-size: var(--moreText);
+
+  /* border: 2px solid red; */
+
+}
+
+
+
+.secondDivImages {
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.secondDivImages img {
+  width: 10rem;
+  height: 3rem;
+
+}
+
+
+
+.threedDiv {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: var(--black);
+
+
+}
+
+
+
+
+
+.button {
+
+  width: var(--btnWidth);
+  padding: var(--btnPadding);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--btnRadius);
+  color: var(--white);
+  font-weight: bold;
+  font-size: var(--btnSize);
+  margin-bottom: 1em;
+  margin-top: 1em;
+  border: .2em solid var(--white);
+  background-color: var(--black);
+
+
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:40rem) {
+
+  .firstDiv {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2em;
+
+
+
+
+  }
+
+  .secondDiv {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    /* align-items:flex-start; */
+
+
+
+
+  }
+
+  .secondDiv div {
+
+    padding: .4em;
+    font-size: var(--moreText);
+
+    /* border: 2px solid red; */
+
+  }
+
+
+
+  .secondDivImages {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+
+  }
+
+  .secondDivImages img {
+    width: 10rem;
+    height: 3rem;
+  
+
+  }
+
+
+
+  .threedDiv {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--black);
+
+
+  }
+
+
+
+
+
+  .button {
+
+    width: var(--btnWidth);
+    padding: var(--btnPadding);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--btnRadius);
+    color: var(--white);
+    font-weight: bold;
+    font-size: var(--btnSize);
+    margin-bottom: 1em;
+    margin-top: 1em;
+    border: .2em solid var(--white);
+    background-color: var(--black);
+
+
+  }
+
+
+}
+
+
+
+
+@media (max-width:30rem) {
+
+.firstDiv {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2em;
+
+
+
+
+  }
+
+  .secondDiv {
+    padding: .5em;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+
+
+
+
+
+  }
+
+  .secondDiv div {
+
+    padding: .3em;
+    font-size: var(--moreText);
+
+    /* border: 2px solid red; */
+
+  }
+
+  .secondDivImages {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      text-align: center;
+    /* background-color: red; */
+
+    }
+  
+    .secondDivImages img {
+      width: 9rem;
+      height:3rem;
+      margin-top: 1em;
+  
+    }
+  
+}
+
+
+
