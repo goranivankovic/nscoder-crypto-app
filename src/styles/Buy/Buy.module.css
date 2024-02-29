@@ -58,7 +58,7 @@
   }
 
   .threedDiv{
-    width: 75rem;
+    width: 70rem;
   
     
 /* border: .2em solid teal; */
@@ -146,7 +146,7 @@
 
 
 
- @media (max-width:75rem) {
+ @media (max-width:70rem) {
     .threedDiv {
         width: 65rem;
     
